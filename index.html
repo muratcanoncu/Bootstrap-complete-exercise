@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-
+<link rel="stylesheet" href="style.css">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -14,13 +14,174 @@
 
         <!-- Fontawesome v5 -->
         <script src="https://kit.fontawesome.com/ec1633c775.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/1a3c707ce3.js" crossorigin="anonymous"></script>
 
         <title>My Bootstrap | Project - 1</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body style="font-family:'Lato',sans-serif;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex">
+            <a class="navbar-brand ml-5" href="#">
+                <img src="/images/bootstrap.jpg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                Bootstrap
+              </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- Carousel -->
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active position-relative">
+                  <img src="/images/banner.jpg" class="d-block w-100" alt="..." style="height: 70vh;">
+                  <h1 class="text-light font-weight-bolder  w-50 h-50 position-absolute display-5" style="top: 50px;left: 25%;">Build a landing page for your business or project and generate more leads!</h1>
+                  <form style="width: 300px; top: -150px;" class="mx-auto position-relative">
+                      <input type="email" class="form-control mb-1" aria-describedby="emailHelp" placeholder="Enter your email...">                 
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                  </form>
+              </div>
+              </div>
+          </div>
+<!-- third-part -->
+          <div class="container text-center my-3">
+              <div class="row">
+                  <div class="col-12 col-md-4 ">
+                    <i class="fas fa-tv"></i>
+                      <h1 class="my-3">Fully Responsive</h1>
+                      <p style="font-size: 1.3rem;">This theme will look grat on any device no matter size.</p>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <i class="fas fa-lock-open"></i>
+                      <h1 class="my-3">Bootstrap 4 Ready</h1>
+                      <p style="font-size: 1.3rem;">Featuring the latest build of the new Bootstrap 4 framework!</p>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <i class="far fa-check-circle"></i>
+                      <h1 class="my-3">Easy to use</h1>
+                      <p style="font-size: 1.3rem;">
+                          Ready to use with your own content, or customize the source files!
+                      </p>
+                  </div>
+              </div>
+          </div>
 
-       
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 order-md-2 ">
+                    <img class="w-100 h-100" src="/images/phone.jpg" alt="">
+                </div>
+                <div class="col-12 col-md-6 order-md-1 my-auto">
+                    <h1 class="my-3">Fully Responsive Design</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, rem? Illum, architecto! Cupiditate, nulla quod iste doloremque dicta, quam nihil, quae maxime ullam dolores iure id? At reprehenderit voluptates iure.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 order-md-1 ">
+                    <img class="w-100 h-100" src="/images/web.jpg" alt="">
+                </div>
+                <div class="col-12 col-md-6 order-md-2 my-auto">
+                    <h1 class="my-3">Updated for Bootstrap 4</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam saepe dolores, enim cupiditate laudantium cum distinctio totam earum voluptatibus nesciunt nisi at sint tempore excepturi. Non corrupti deserunt reiciendis harum expedita possimus earum labore distinctio.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 order-md-2 ">
+                    <img class="w-100 h-100"  src="/images/kid.jpg" alt="">
+                </div>
+                <div class="col-12 col-md-6 order-md-1 my-auto">
+                    <h1 class="my-3">Easy to Use & Customize</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque odit quae repellat esse neque, possimus officia dolore dolores eligendi? Qui ipsam tempora accusamus repudiandae odit officia doloribus id nobis.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- what people are saying -->
+        <h1 class="text-center my-5">What people are saying...</h1>
+        <div class="container" >
+            
+            <div class="row">
+                <div class="col-12 col-md mb-4 p-3 text-center ">
+                    <img src="/images/tes1.jpg" alt="" style="border-radius: 50%; width: 70%;">
+                    <h1 class="my-2">Margaret E.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="col-12 col-md mb-4 p-3 text-center">
+                    <img src="/images/tes2.jpg" alt="" style="border-radius: 50%;width: 70%;">
+                    <h1 class="my-2">Fred S.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati porro nihil asperiores laborum!</p>
+                </div>
+                <div class="col-12 col-md mb-4 p-3 text-center">
+                    <img src="/images/tes3.jpg" alt="" style="border-radius: 50%;width: 70%;">
+                    <h1 class="my-2">Sarah W.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quaerat!</p>
+                </div>
+            </div>
+        </div>
+        <!-- Second sign up -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="/images/banner.jpg" class="d-block w-100" alt="..." style="height: 30vh;">
+                  <p class="font-weight-bold text-light mx-auto position-relative" style="width: 380px; top: -200px;font-size: 1.5rem; ">Ready to get started?Sign up now!</p>
+                  <form style="width: 300px; top: -200px;" class="mx-auto position-relative">
+                      <input type="email" class="form-control mb-1" aria-describedby="emailHelp" placeholder="Enter your email...">                 
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                  </form>
+              </div>
+              </div>
+          </div>
+
+          <!-- last part -->
+
+          <div class="container mb-5">
+              <div class="row">
+                  <div class="col-12">
+                    <ul class="list-unstyled d-flex justify-content-center">
+                        <li class="mx-3" style="font-size: 1.2rem;"><a href="#">About</a></li>
+                        <li class="mx-3" style="font-size: 1.2rem;"><a href="#">Contact</a></li>
+                        <li class="mx-3" style="font-size: 1.2rem;"><a href="#">Terms of Use</a></li>
+                        <li class="mx-3" style="font-size: 1.2rem;"><a href="#">Privacy</a></li>
+                    </ul>
+                    <p class="text-center">&copy;Your Website 2020.All Rights Reserved</p>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center">
+                    <i class="fab fa-facebook mx-4"></i>
+                    <i class="fab fa-twitter mx-4"></i>
+                    <i class="fab fa-instagram mx-4"></i>
+                  </div>
+              </div>
+          </div>
+          
+
+
+
+
+         
 
 
         
